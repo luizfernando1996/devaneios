@@ -1,0 +1,24 @@
+/* src/app/components/header/header.component.css */
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 250px;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.mat-icon {
+  vertical-align: middle; /* Align icons vertically in the middle */
+
+}
+
+.text {
+  margin-left: 10px; /* Adjust as needed for spacing between icon and text */
+  vertical-align: middle; /* Align text vertically in the middle */
+}

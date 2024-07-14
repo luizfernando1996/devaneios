@@ -1,0 +1,103 @@
+/* src/app/components/contact/contact.component.css */
+.contact-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #3f51b5;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+.contact-list a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-list a mat-icon {
+  margin-right: 10px;
+  color: #3f51b5; /* or any other color you prefer */
+}
+
+
+
+/* src/app/components/contact/contact.component.css */
+.contact-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #3f51b5;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #3f51b5; /* Updated primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #303f9f; /* Darker shade for hover state */
+}
+
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.icon {
+  color: #3f51b5; /* Blue color for icons */
+  // font-size: 24px;
+  margin-right: 10px;
+}
+
+.label {
+  font-size: 14px;
+  vertical-align: super;
+    // font-weight: bold;
+}
